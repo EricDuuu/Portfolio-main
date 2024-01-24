@@ -29,7 +29,7 @@ export default function Projects(props) {
 
               <div className="relative">
                 <a
-                  href="https://veliso-waitlist.vercel.app/"
+                  href={project.link}
                   className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 
                       flex justify-center items-center text-base text-white 
                       font-semibold cursor-pointer bg-[#000000aa]"
