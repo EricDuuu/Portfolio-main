@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+@tailwind base;
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  @apply bg-slate-50 dark:bg-[#222529] scroll-smooth;
+}
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .app {
+    @apply scroll-smooth;
+  }
+
+  .btn-color {
+    @apply dark:text-white dark:hover:text-custom-red hover:text-custom-red border-slate-800 dark:border-white 
+    hover:border-custom-red dark:hover:border-custom-red border;
+  }
+
+  .project-one-gif {
+    background-image: url("./images/movie-library.gif");
+  }
+}
