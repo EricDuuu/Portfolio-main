@@ -154,6 +154,7 @@ export default function Projects(props) {
               strokeLinejoin="round"
               d="M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75"
             />
+
           </svg>
 
           <span className="font-mono text-sm">Listed Skills</span>
