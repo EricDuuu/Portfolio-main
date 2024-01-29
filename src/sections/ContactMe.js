@@ -3,6 +3,7 @@ import linkedin from "../images/linkedin.png";
 import mail from "../images/new-post.png";
 import resume from "../images/open-resume.png";
 import github from "../images/github.png";
+import resumedownload from '../Eric Du Resume.pdf'
 
 export default function ContactMe(props) {
   return (
@@ -45,7 +46,7 @@ export default function ContactMe(props) {
           </a>
 
           <a
-            href="https://drive.google.com/file/d/1LqhgDw2m2V03SscIibWC18wtDzUmh1Uu/view?usp=sharing"
+            href={resumedownload}
           >
             <div className="flex btn-color py-4 px-8 gap-5 border border-slate-800 dark:bg-[#292d31] rounded dark:text-white pt-3 pb-8 flex-col items-center">
               <img src={resume} alt="email" className="py-2" />

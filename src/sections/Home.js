@@ -1,6 +1,6 @@
 import React from "react";
 import myface from "../images/eric.png";
-import resume from '../ericduresume.docx'
+import resume from '../Eric Du Resume.pdf'
 import linkedin from "../images/linkedin.png";
 import github from "../images/github.png";
 import { motion } from "framer-motion";
