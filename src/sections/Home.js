@@ -15,7 +15,7 @@ export default function Home(props) {
         whileInView="onscreen"
         viewport={{ once: true, amount: 0.8 }}
       >
-        <div className="grid grid-cols-2 gap-3">
+        <div className="xl:grid xl:grid-cols-2 gap-3">
 
           <motion.div variants={leftSlide} animate={{ rotate: 360 }}>
             <div className="px-10 py-10 xl:px-24" >
