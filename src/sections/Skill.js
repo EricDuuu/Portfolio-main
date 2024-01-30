@@ -8,25 +8,24 @@ export default function Skill(props) {
           Front-End
         </h1>
         <div className="gap-6 dark:text-white mb-6">
-          Vue.js (FrontEnd), Drupal (Core), PHP, AWS Lambda, Python, HTML, CSS, Twig, Linux, React (AggieExchange), React Native (RoomU), Astro(AggieWorks Site), SupaBase, NoSQL, Prisma, FireBase, GoLang, Svelt, Next.js, Tailwind, Docker
+          React, React Native, Expo, PHP, HTML, CSS, Flask, Twig, Svelte, Vue, Next.js, Astro
         </div>
         <h1 className="text-xl sm:text-[28px] font-extrabold text-custom-blue pb-8 lg:pb-0">
           Back-End
         </h1>
         <div className="flex flex-wrap items-center h-full gap-6 dark:text-white mb-6">
-
+          SQL (PostgreS, NoSQL, MySQL, GraphQL), GoLang, Django, Node, FastAPI, AWS, Prisma, SupaBase, FireBase, Drupal, Prisma
         </div>
         <div className="flex flex-row flex-wrap gap-16">
           <div>
             <h1 className="text-xl sm:text-[28px] font-extrabold text-custom-red pb-8 lg:pb-0">
-              Others
+              Languages and Technologies
             </h1>
             <div className="flex justify-center gap-6">
               <div className="w-full py-4">
                 <p className="dark:text-white">
                   <span className="my-2 block sm:text-sm lg:text-base font-mono font-bold">
-                    Figma, Git, Appwrite, Digital Ocean, Linode, Docker, Hasura,
-                    NPM, PIP
+                    C++, Java, Python, C, JavaScript, Docker, Figma, Git
                   </span>
                 </p>
               </div>
